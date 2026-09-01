@@ -89,22 +89,8 @@ ubook/
    flutter run
    ```
 
-> **Nota:** las imágenes en `mobile/assets/` son placeholders generados para que el proyecto compile sin errores. Reemplázalas por el logo e íconos reales del proyecto.
-
-## 📌 Notas de esta actualización
-
-Con respecto a la versión original, se reorganizó así:
-
-- Se separó todo en `mobile/` (Flutter) y `backend/` (PHP + SQL), en vez de tenerlo todo mezclado en una sola carpeta.
-- Se centralizó la URL de la API en `lib/config/api_config.dart` (antes estaba repetida y hardcodeada en cada servicio).
-- Se eliminó un archivo de servicio de notificaciones duplicado y un `log.txt` de debug que había quedado en el backend.
-- Se agregó este `README.md` y un `.gitignore` para Flutter + PHP.
-- Se agregaron assets placeholder para que el proyecto compile (antes `pubspec.yaml` apuntaba a una carpeta `assets/` que no existía en el repo).
 
 ## 👥 Autores
 
 Proyecto desarrollado en conjunto por **Johan David Rodríguez Pérez** y **Juan David Acero Urbano**.
 
-## 📄 Licencia
-
-Este proyecto no tiene una licencia definida todavía. Si quieres compartirlo públicamente en GitHub, considera agregar una (por ejemplo, MIT) desde la configuración del repositorio.
