@@ -1,0 +1,40 @@
+name: ubook
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  table_calendar: ^3.0.8  # Paquete para el calendario
+  intl: ^0.18.1  # Paquete para el formateo de fechas
+  cupertino_icons: ^1.0.6
+  http: ^0.13.3
+  logger: ^1.1.0
+  cached_network_image: ^3.2.3
+  font_awesome_flutter: ^10.4.0
+  image_picker: ^0.8.7+3
+  shared_preferences: ^2.0.15
+  collection: ^1.17.1 
+  socket_io_client: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1  # Aquí está el paquete añadido correctamente
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/ubook_background.png"
